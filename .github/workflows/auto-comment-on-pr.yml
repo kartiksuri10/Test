@@ -2,8 +2,8 @@ name: Auto Comment on PR
 
 on:
   pull_request:
-    branches:
-      - main
+    paths:
+      - 'testing/*'
 jobs:
   auto-comment:
     runs-on: ubuntu-latest
